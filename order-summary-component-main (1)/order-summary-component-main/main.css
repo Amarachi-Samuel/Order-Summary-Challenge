@@ -1,0 +1,105 @@
+
+body{
+      background-color: hsl(225, 100%, 94%);
+      font-family: 'Red Hat Display', sans-serif;
+    }
+
+    #wrapper{
+      background-color: white;
+      box-sizing: border-box;
+      margin: 5pc auto;
+      width: 350px;
+      height: 550px;
+      border-radius: 15px;
+      overflow: hidden;
+      
+    }
+
+    .image1{
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      object-fit: cover;
+    }
+
+    h3{
+        font-weight: 700;
+     }
+
+    h3, .plan{
+        color: #1f2f56;
+    }
+
+    a{
+      text-decoration: none;
+      color: #7280a7;
+    }
+
+    .payment{
+      display: flex;
+      background: #f5f7ff;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      width: 260px;
+      margin-left: 30px;
+      margin-top: 15px;
+      border-radius: 10px;
+      justify-content: center;
+    }
+
+    .payment img{
+        margin: 5px;
+    }
+
+    .plan{
+        flex: 1;
+        line-height: 1.4;
+        font-size: 14px;
+    }
+
+    .change a{
+      color: #2b19f3;
+      font-weight: bolder;
+      font-size: 14px;
+      text-decoration: underline;
+      
+    }
+
+    .cancel{
+        text-align: center;
+    }
+
+    button{
+      color: white;
+      background-color: #382ae1;
+      width: 80%;
+      padding: 13px;
+      margin: 30px;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+
+    }
+
+    button:hover{
+      cursor: pointer;
+    }
+
+    button:active{
+        background-color: hsl(227, 40%, 84%);
+    }
+
+    .summary{
+      padding: 7px;
+      text-align: center;
+    }
+
+    .attribution { 
+        font-size: 14px; 
+        text-align: center; 
+    }
+
+    .attribution a {
+         color: hsl(228, 45%, 44%); 
+        }
